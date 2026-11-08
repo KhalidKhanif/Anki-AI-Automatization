@@ -164,6 +164,7 @@ py setup_anki.py
 
 It's safe to run again: existing decks are left untouched.
 
+
 ![Note type fields in Anki](screenshots/02-anki-note-fields.png)
 
 > Want different deck names? Change `DECKS` in `setup_anki.py` and `DECK` at the top of the `*_add_cards.py` and `*_anki_tts.py` scripts.
@@ -176,7 +177,6 @@ So that Claude can write the card files, give it access to the folder:
 2. In the message box click **"+" → Add folder**.
 3. Choose `Documents/ankiScripts`.
 
-![Connecting the folder to Claude](screenshots/04-claude-add-folder.png)
 
 Claude will see **only this folder**, not your whole computer.
 
@@ -194,7 +194,6 @@ What the instructions define:
 - a B1–B2 example sentence with the word highlighted in color;
 - images only from Unsplash, and links are **never made up**.
 
-![Project instructions in Claude](screenshots/05-claude-project-instructions.png)
 
 ✅ Installation complete.
 
@@ -202,13 +201,17 @@ What the instructions define:
 
 ## 📝 Daily use
 
-**1. Send words** to the project chat, as text or a screenshot:
+**1. Send words** to the project chat, as text or a screenshot.
 
 ![Sending words to Claude](screenshots/06-claude-chat-words.png)
+*(illustration)*
 
-**2. Claude writes the file** and replies with a summary and the command:
+
+**2. Claude writes the file** and replies with a summary and the command.
 
 ![Claude's summary reply](screenshots/07-claude-summary.png)
+*(illustration)*
+
 
 An example line it writes (more in [`examples/`](examples/)):
 
@@ -240,11 +243,15 @@ An example line it writes (more in [`examples/`](examples/)):
 
 ("добавлено" = added, "очищен" = cleared, "аудиофайлов" = audio files.)
 
+
 ![Script output in the terminal](screenshots/08-terminal-output.png)
+*(illustration)*
 
 **4. Done**: the card is in Anki with a picture, example, transcription and audio. Sync Anki and it appears on your phone.
 
 ![Finished card in Anki](screenshots/09-anki-card.png)
+
+![Back of the card](screenshots/10-anki-card-back.png)
 
 ---
 

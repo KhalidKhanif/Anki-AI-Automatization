@@ -157,6 +157,7 @@ py setup_anki.py
 
 تشغيله مرة أخرى آمن: لا يمسّ المجموعات الموجودة.
 
+
 ![حقول نوع الملاحظة في Anki](screenshots/02-anki-note-fields.png)
 
 > تريد أسماء أخرى للمجموعات؟ غيّر `DECKS` في `setup_anki.py` و`DECK` في أول السكربتات `*_add_cards.py` و`*_anki_tts.py`.
@@ -169,7 +170,6 @@ py setup_anki.py
 2. في خانة الرسالة اضغط **«+» ← Add folder**.
 3. اختر المجلد `Documents/ankiScripts`.
 
-![ربط المجلد بـ Claude](screenshots/04-claude-add-folder.png)
 
 سيرى Claude **هذا المجلد فقط**، لا الحاسوب كله.
 
@@ -187,7 +187,6 @@ py setup_anki.py
 - جملة بمستوى B1–B2 والكلمة فيها مميّزة بلون؛
 - الصور من Unsplash فقط، ولا تُختلَق الروابط **أبدًا**.
 
-![تعليمات المشروع في Claude](screenshots/05-claude-project-instructions.png)
 
 ✅ انتهى التثبيت.
 
@@ -195,13 +194,17 @@ py setup_anki.py
 
 ## 📝 الاستخدام اليومي
 
-**1. أرسل الكلمات** في محادثة المشروع، نصًّا أو لقطة شاشة:
+**1. أرسل الكلمات** في محادثة المشروع، نصًّا أو لقطة شاشة.
 
 ![إرسال الكلمات إلى Claude](screenshots/06-claude-chat-words.png)
+*(رسم توضيحي)*
 
-**2. يكتب Claude الملف** ويرد بملخّص وأمر التشغيل:
+
+**2. يكتب Claude الملف** ويرد بملخّص وأمر التشغيل.
 
 ![رد Claude بالملخص](screenshots/07-claude-summary.png)
+*(رسم توضيحي)*
+
 
 مثال على سطر يكتبه (مزيد من الأمثلة في [`examples/`](examples/)):
 
@@ -233,11 +236,15 @@ py setup_anki.py
 Готово. Всего добавлено аудиофайлов: 4
 ```
 
+
 ![مخرجات السكربت في الطرفية](screenshots/08-terminal-output.png)
+*(رسم توضيحي)*
 
 **4. تمّ**: البطاقة في Anki فيها الصورة والمثال والنطق والتسجيل الصوتي. زامِن Anki لتظهر على الهاتف.
 
 ![البطاقة الجاهزة في Anki](screenshots/09-anki-card.png)
+
+![الوجه الخلفي للبطاقة](screenshots/10-anki-card-back.png)
 
 ---
 
