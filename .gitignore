@@ -1,0 +1,12 @@
+# Рабочие файлы: их пишет Claude и очищают скрипты
+eng_cards.jsonl
+arb_cards.jsonl
+*_cards_added.jsonl
+
+# Python
+__pycache__/
+*.pyc
+
+# Системные
+.DS_Store
+Thumbs.db
